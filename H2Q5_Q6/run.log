@@ -1,0 +1,28 @@
+Command: /home/ICer/HOMEWORK/H2Q5/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Oct 23 03:08 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'statistic.fsdb'
+*Verdi* : Begin traversing the scope (tb_rc_statistic), layer (0).
+*Verdi* : End of traversing.
+T=0: [Test] 正在复位...
+T=25000: [Test] 复位释放.
+T=25000: [Case 1] 强制 RC=1 256个周期...
+T=2585000: [Case 1] 检查 Vld 和 F...
+T=2585000: [PASS] Case 1 (N1=256): Vld=1, F=1
+T=2585000: [Case 2] 强制 RC=0 256个周期...
+T=5145000: [Case 2] 检查 Vld 和 F...
+T=5145000: [PASS] Case 2 (N1=0): Vld=1, F=0
+T=5145000: [Case 3] 强制 RC 交替 256个周期 (N1=128)...
+T=7705000: [Case 3] 检查 Vld 和 F...
+T=7705000: [PASS] Case 3 (N1=128): Vld=1, F=0
+T=7705000: [Test] 所有测试完成.
+$finish called from file "tb_rc_statistic.sv", line 107.
+$finish at simulation time              7755000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7755000 ps
+CPU Time:      0.160 seconds;       Data structure size:   0.0Mb
+Thu Oct 23 03:08:55 2025
