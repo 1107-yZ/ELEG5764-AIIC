@@ -1,0 +1,22 @@
+Command: /home/ICer/H2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Oct 22 22:56 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'sum.fsdb'
+*Verdi* : Begin traversing the scope (tb_sum), layer (0).
+*Verdi* : End of traversing.
+T=0: [Test] 正在复位...
+T=25000: [Test] 复位释放.
+T=35000: [Test] 拉高 start 信号.
+T=45000: [Test] 拉低 start 信号. 等待 'done'...
+T=145000: [Test] 'done' 信号已收到!
+T=155000: [SUCCESS] 结果正确! sum_out =  55
+$finish called from file "tb_sum.sv", line 67.
+$finish at simulation time               205000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 205000 ps
+CPU Time:      0.580 seconds;       Data structure size:   0.0Mb
+Wed Oct 22 22:56:56 2025
